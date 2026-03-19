@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fire Pump Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="hero">
+    <div class="hero__content">
+      <h1 class="hero__title">
+        Задача: Подача воды, при заборе воды из открытого водоисточника
+      </h1>
+      <p class="hero__subtitle">
+        Выберите правильную последовательность запуска
+      </p>
+      <button class="hero__start-button">
+        Начать тест
+      </button>
+    </div>
+
+    <div class="test">
+      <div class="test__panel">
+        <div class="test__header">
+          <div class="test__progress">
+            <span class="test__progress-label">Выбрано</span>
+            <span class="test__progress-value">0 / 10</span>
+          </div>
+          <button class="test__finish">
+            Завершить тест
+          </button>
+        </div>
+        <div class="test__image">
+          <img src="./testing-image.jpg"
+            class="test__img">
+          <button class="test__point" data-id="1" style="top:89%;left:5.5%"></button>
+          <button class="test__point" data-id="2" style="top:39%;left:41.5%"></button>
+          <button class="test__point" data-id="3" style="top:84.5%;left:5.5%"></button>
+          <button class="test__point" data-id="4" style="top:17%;left:23.5%"></button>
+          <button class="test__point" data-id="5" style="top:15%;left:27%"></button>
+          <button class="test__point" data-id="6" style="top:20%;left:28%"></button>
+          <button class="test__point" data-id="7" style="top:22%;left:28%"></button>
+          <button class="test__point" data-id="8" style="top:72.5%;left:83.5%"></button>
+          <button class="test__point" data-id="9" style="top:24%;left:28%"></button>
+          <button class="test__point" data-id="10" style="top:18%;left:27%"></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="result">
+      <h2 class="result__title">
+        Результаты
+      </h2>
+      <div class="result__score"></div>
+      <ul class="result__list"></ul>
+      <button class="result__restart">
+        Пройти снова
+      </button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
