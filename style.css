@@ -25,7 +25,7 @@ body {
   position: absolute;
   width: 140%;
   height: 140%;
-  background: url("https://images.unsplash.com/photo-1530541930197-ff16ac917b0e?auto=format&fit=crop&w=2000&q=80") center/cover;
+  background: url("./bg-image.jpg") center/cover;
   filter: blur(0.75rem) brightness(.35);
 }
 
